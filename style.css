@@ -1,0 +1,41 @@
+body{
+    background-color: chocolate;
+}
+.results {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.result{
+    background-color: #fff;
+    width: 70vh;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+p{
+    font-size: 2rem;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+button{
+  width: 70vh;
+  margin: 10px;
+  border-radius: 20px ;
+  border: none;
+  height: 5vh;
+  background-color: blue;
+  font-size: medium;
+  color: #fff;
+}
